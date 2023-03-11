@@ -1,5 +1,5 @@
 import React from "react";
-import { disocunt } from "../assets";
+import { disocunt, robot } from "../assets";
 import styles from "../style";
 import GetStarted from "./GetStarted";
 
@@ -28,7 +28,7 @@ const Hero = () => {
            
           </h1>
 
-          <div className="sm:flex hiddden md:mr-4 mr-0">
+          <div className="sm:flex hidden md:mr-4 mr-0">
             <GetStarted/>
           </div>
         
@@ -39,6 +39,15 @@ const Hero = () => {
           most likely to fit your needs. We examine annual percentage rates,
           annual fees.
         </p>
+      </div>
+      <div className={`flex flex-1 ${styles.flexCenter} md:my-0 my-10 relative`}>
+        <img src={robot} alt="billing" className="relative z-[5] w-[100%] h-[100%]"/>
+        <div className="absolute z-[0] w-[40%] h-[35%] pink__gradient"></div>
+        <div className="absolute z-[1] w-[80%] h-[80%] rounded-full white__gradient bottom-40" />
+        <div className="absolute z-[0] w-[50%] h-[50%] right-20 bottom-20 blue__gradient" />
+      </div>
+      <div className={`ss:hidden ${styles.flexCenter}`}>
+        <GetStarted />
       </div>
     </section>
   );
