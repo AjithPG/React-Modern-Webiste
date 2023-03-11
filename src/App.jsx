@@ -1,5 +1,6 @@
 import React from "react";
 import { Navbar, Hero } from "./components";
+import Stats from "./components/Stats";
 import styles from "./style";
 
 const App = () => {
@@ -15,7 +16,14 @@ const App = () => {
         </div>
        
       </div>
-    </div>
+
+      <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
+      <div className={`${styles.boxWidth}`}>
+         <Stats/>
+      </div>
+      </div>
+      
+     </div>
   );
 };
 
