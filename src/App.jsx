@@ -2,6 +2,7 @@ import React from "react";
 import { Navbar, Hero } from "./components";
 import Billing from "./components/Billing";
 import Business from "./components/Business";
+import CardDetails from "./components/CardDetails";
 import Stats from "./components/Stats";
 import styles from "./style";
 
@@ -24,6 +25,7 @@ const App = () => {
          <Stats/>
          <Business/>
          <Billing/>
+         <CardDetails/>
       </div>
       </div>
       

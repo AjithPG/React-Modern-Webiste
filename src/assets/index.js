@@ -10,7 +10,8 @@ import send from './Send.svg';
 import bill from './bill.png';
 import apple from './apple.svg';
 import google from './google.svg';
+import Card from './card.png';
 
 export {
-    logo,menu,close,disocunt,arrowup,robot,star,shield,send,bill,apple,google
+    logo,menu,close,disocunt,arrowup,robot,star,shield,send,bill,apple,google,Card
 }
