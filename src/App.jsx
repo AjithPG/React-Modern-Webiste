@@ -1,5 +1,6 @@
 import React from "react";
 import { Navbar, Hero } from "./components";
+import Billing from "./components/Billing";
 import Business from "./components/Business";
 import Stats from "./components/Stats";
 import styles from "./style";
@@ -22,6 +23,7 @@ const App = () => {
       <div className={`${styles.boxWidth}`}>
          <Stats/>
          <Business/>
+         <Billing/>
       </div>
       </div>
       

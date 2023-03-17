@@ -7,7 +7,10 @@ import robot from './robot.png';
 import star from './Star.svg';
 import shield from './Shield.svg';
 import send from './Send.svg';
+import bill from './bill.png';
+import apple from './apple.svg';
+import google from './google.svg';
 
 export {
-    logo,menu,close,disocunt,arrowup,robot,star,shield,send
+    logo,menu,close,disocunt,arrowup,robot,star,shield,send,bill,apple,google
 }
